@@ -2,3 +2,84 @@
 ---
 
 @import "{{ site.theme }}";
+/* ------------------------- Header Section ----------------------- */
+/* header box */
+.header {
+  overflow: hidden;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+/* header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* right side of the header */
+.header-right {
+  float: right;
+}
+
+/* name on the left of the header */
+#name{
+  font-size:20px;
+  margin-left: 40px;
+}
+/* ------------------------- Intro.Body Section ----------------------- */
+body{
+  padding: 30px;
+}
+
+div{
+  font-family: "Roboto Mono", Helvetica Neue,Helvetica,sans-serif;
+}
+
+/* all links */
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+#intro{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-size: 24px;
+  border-bottom: 1px solid #DCDCDC;
+  line-height:32px;
+}
+
+/* ------------------------- Projects.Body Section ----------------------- */
+#hobby{
+  border-bottom: 1px solid black;
+}
+
+/* larger project div */
+#projects{
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+/* individual projects */
+#project{
+  width: 175px;
+  height:175px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
