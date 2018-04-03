@@ -1,0 +1,15 @@
+body{
+  font-family: "Roboto Mono", monospace;
+}
+
+p {
+
+}
+
+#wordDisplay{
+  color: red;
+}
+
+button{
+  color: red;
+}
