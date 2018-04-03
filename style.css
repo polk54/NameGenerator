@@ -1,15 +1,52 @@
 body{
   font-family: "Roboto Mono", monospace;
+  padding: 10px 20px 10px 20px;
 }
 
 p {
-
+  padding:
 }
 
 #wordDisplay{
   color: red;
+  font-size: 20px;
+  padding: 10px 20px 20px 0px;
 }
 
-button{
-  color: red;
+button {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #f50000;
+  text-decoration: none;
+}
+
+#tweet{
+  padding: 40px 20px 20px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
 }
